@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Country } from './country';
+import { Province } from './province';
+import  data from '../assets/data/country-province.json';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignment4';
+
+  nation : Country = data.country;
+
+  prov:Province []= data.provinces;
+  
 }

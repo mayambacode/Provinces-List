@@ -1,0 +1,19 @@
+table {
+    border-collapse: separate;
+    border-spacing: 50px;
+    line-height: 10px;
+    width: 100%;
+    border-spacing: 9px;
+    
+}
+
+th, td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    
+}
+
+.mat-flat-button {
+    background-color: rgb(30, 213, 128);
+}

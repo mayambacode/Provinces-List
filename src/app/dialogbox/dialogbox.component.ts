@@ -13,7 +13,7 @@ export class DialogboxComponent implements OnInit {
   constructor(@Inject(MAT_DIALOG_DATA) public data: Province) { 
     this.province =data;
   }
-  // will the name change work?
+
   ngOnInit(): void {
   }
 
